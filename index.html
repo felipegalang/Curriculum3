@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <menu>
+            <section id="menu">
+                <ul>
+                    <a href="#">Home</a>
+                    <a href="#servicio">About</a>
+                    <a href="#portafolio">Projects</a>
+                    <a href="#contacto">Contact</a>
+                </ul>
+            </section>
+        </menu>
+        <div class="contenedor head">
+            <h1 class="titulo">Earthchitech</h1>
+            <p class="copy">Arquitectura con toda la ingeniería del caso</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="services contenedor" id="servicio">
+            <!-- <h3>Ingeniero civil de la universidad nacional de Colombia graduado en el año 2020 con carrera de arquitectura cursada hasta sexto semestre en la universidad de Palermo de buenos Aires - Argentina.</h3> -->
+            <h2 class="subtitulo">Perfil profesional</h2>
+            <p class="parrafo">Ingeniero civil graduado de la universidad nacional de colombia</p>
+            <div class="contenedor-servicio">
+                <img src="Img/foto.png" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Diseño Estructural</h3>
+                        <p class="parrafo">Diseño de estructuras de concreto y acero bajo el régimen de la norma sismoresistente colombiana NSR-10, complementado por métodos alternativos de revision de resistencia para elementos de sección simétrica.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Diseño hidráulico</h3>
+                        <p class="parrafo">Diseño de redes hidrosanitarias para edificios acorde a la norma técnica colombiana NTC1500 y diseño hidráulico de elementos componentes de plantas de tratamiento de agua potable conforme el reglamento de agua potable y saneamiento RAS.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Modelado BIM</h3>
+                        <p class="parrafo">Capacitado en Building Information Modeling (BIM) para el control de cantidades de obra en diseños civiles con Revit AutoDesk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria Diseño Arquitectónico</h2>
+                <p class="p-galeria">Manejo de Autocad 2D y 3D, al igual que Revit para el registro y desarrollo de diseños arquitectónicos acorde a las normas técnicas de dibujo. </p>
+                <section class="galeria">
+                    <a href="#image1"><img src="img/1.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image2"><img src="img/2.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image3"><img src="img/3.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image4"><img src="img/4.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image5"><img src="img/5.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image6"><img src="img/6.jpg" alt="" class="img-galeria"></a>
+                </section>
+    
+                <article class="ligth-box" id="image1"> 
+                    <a href="#image6" class="next"><i class='bx bx-left-arrow-alt' ></i></a>
+                    <img src="img/1.jpg" alt="">
+                    <a href="#image2" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#" class="close">X</a>
+                </article>
+                <article class="ligth-box" id="image2"> 
+                    <a href="#image1" class="next"><i class='bx bx-left-arrow-alt' ></i></a>
+                    <img src="img/2.jpg" alt="">
+                    <a href="#image3" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#" class="close">X</a>
+                </article>
+            </div>
+
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria Diseño Estructural</h2>
+                <p class="p-galeria">Además de la implementación del BIM, muy oportuno para el control de cantidades de obra con los "materials TakeOffs", se utiliza el software SAP2000 para el análisis sísmico de la estructura. Adicionalmente está la posibilidad de implementar un software de autoría propia (desarrollado como trabajo de grado) con la interfaz gráfica GMSH para el análisis de secciones simétricas sometidas a flexión. </p>
+                <section class="galeria">
+                    <a href="#image7"><img src="img/7.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image8"><img src="img/8.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image9"><img src="img/9.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image10"><img src="img/10.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image11"><img src="img/11.jpg" alt="" class="img-galeria"></a>
+                    <a href="#image12"><img src="img/12.jpg" alt="" class="img-galeria"></a>
+                </section>
+    
+                <article class="ligth-box" id="image7"> 
+                    <a href="#image12" class="next"><i class='bx bx-left-arrow-alt' ></i></a>
+                    <img src="img/7.jpg" alt="">
+                    <a href="#image8" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#" class="close">X</a>
+                </article>
+                <article class="ligth-box" id="image8"> 
+                    <a href="#image7" class="next"><i class='bx bx-left-arrow-alt' ></i></a>
+                    <img src="img/8.jpg" alt="">
+                    <a href="#image9" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#" class="close">X</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Habilidad en:</h2>
+            <section class="experts">
+                <div class="cont-experts">
+                    <img src="img/excel.jpg" alt="">
+                    <h3 class="n-expert">Excel</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="img/Autocad.jpg" alt="">
+                    <h3 class="n-expert">AutoCad</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="img/Revit.jpg" alt="">
+                    <h3 class="n-expert">Revit</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="img/Sap.jpg" alt="">
+                    <h3 class="n-expert">SAP2000</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="img/Matlab.jpg" alt="">
+                    <h3 class="n-expert">MatLab</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="img/html.jpg" alt="">
+                    <h3 class="n-expert">HTML</h3>
+                </div>
+            </section>
+        </section>      
+    </main>
+
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-me">
+                <h2 class="brand">Luis Felipe Galán Guevara</h2>
+                <p>Ingeniero Civil</p>
+                <p>Correo electrónico: galanpipe3@gmail.com</p>
+                <p>teléfono: +57 314 4505657</p>
+            </div>
+            <div class="social-media">
+                <a href="#contacto" class="social-media-icon">
+                    <i class='bx bxl-whatsapp' ></i>
+                    <i class='bx bx-envelope-open'></i>
+                </a>
+            </div>
+        </div>        
+        <div class="line"></div>
+    </footer>
+
+    
+    
+
+</body>
+</html>
